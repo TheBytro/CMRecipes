@@ -1,0 +1,30 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+
+[[mods]] #mandatory
+modId="cduproject" #mandatory
+version="17.03.22-1.18.1" #mandatory
+displayName="CDUProject" #mandatory
+#logoFile="examplemod.png" #optional
+#credits="" #optional
+authors="Cousin" #optional
+description='''
+Cousin's Deep Ups Project (CDUProject) is an expansive mod that adds crafting recipes for cross mod support
+and in the future some more crazy things.
+'''
+
+[[dependencies.cduproject]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[39,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cduproject]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
