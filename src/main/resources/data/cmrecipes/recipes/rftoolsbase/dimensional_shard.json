@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DEI",
+    "ORS",
+    "QPG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "O": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "item": "rftoolsbase:dimensionalshard"
+  }
+}

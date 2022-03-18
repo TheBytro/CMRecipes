@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GPG",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "P": {
+      "item": "botania:manasteel_ingot"
+    },
+    "S": {
+      "item": "botania:livingwood_twig"
+    }
+  },
+  "result": {
+    "item": "botania:prism"
+  }
+}

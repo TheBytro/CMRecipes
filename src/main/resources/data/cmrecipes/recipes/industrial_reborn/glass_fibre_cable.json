@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "ESE",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "E": {
+      "item": "indreb:energium_dust"
+    },
+    "S": [
+      {
+        "item": "indreb:silver_dust"
+      },
+      {
+        "tag": "forge:dusts/silver"
+      }
+    ]
+
+  },
+  "result": {
+    "item": "indreb:glass_fibre_cable"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GIG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "I": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "croptopia:milk_bottle",
+    "count": 16
+  }
+}

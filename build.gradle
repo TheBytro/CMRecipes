@@ -1,25 +1,28 @@
 buildscript {
     repositories {
         maven { url = 'https://maven.minecraftforge.net' }
+        maven { url = 'https://maven.parchmentmc.org' }
         mavenCentral()
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath 'org.parchmentmc:librarian:1.+'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '17.03.22-1.18.1'
-group = 'io.thebytro.cduproject'
-archivesBaseName = 'cduproject'
+group = 'io.thebytro.cmrecipes'
+archivesBaseName = 'cmrecipes'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
-    mappings channel: 'official', version: '1.18.1'
+    mappings channel: 'parchment', version: '2022.03.06-1.18.1'
 
     runs {
         client {
@@ -29,10 +32,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'cduproject'
+            property 'forge.enabledGameTestNamespaces', 'cmrecipes'
 
             mods {
-                cduproject {
+                cmrecipes {
                     source sourceSets.main
                 }
             }
@@ -45,10 +48,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'cduproject'
+            property 'forge.enabledGameTestNamespaces', 'cmrecipes'
 
             mods {
-                cduproject {
+                cmrecipes {
                     source sourceSets.main
                 }
             }
@@ -61,10 +64,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'cduproject'
+            property 'forge.enabledGameTestNamespaces', 'cmrecipes'
 
             mods {
-                cduproject {
+                cmrecipes {
                     source sourceSets.main
                 }
             }
@@ -77,10 +80,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'cduproject', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'cmrecipes', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                cduproject {
+                cmrecipes {
                     source sourceSets.main
                 }
             }
@@ -101,12 +104,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "cduproject",
-                "Specification-Vendor"    : "cduprojectsareus",
+                "Specification-Title"     : "cmrecipes",
+                "Specification-Vendor"    : "cmrecipessareus",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "cduprojectsareus",
+                "Implementation-Vendor"   : "cmrecipessareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

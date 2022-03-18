@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CGC",
+    "CGC",
+    "CGC"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "biggerreactors:heat_exchanger_evaporator_channel"
+  }
+}

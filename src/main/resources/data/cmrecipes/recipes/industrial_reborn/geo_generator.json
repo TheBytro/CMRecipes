@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GFG",
+    "GFG",
+    "IPI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "F": {
+      "item": "indreb:fluid_cell"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "P": {
+      "item": "indreb:generator"
+    }
+  },
+  "result": {
+    "item": "indreb:geo_generator"
+  }
+}

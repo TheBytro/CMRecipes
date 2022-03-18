@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GIG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "I": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "croptopia:water_bottle",
+    "count": 16
+  }
+}

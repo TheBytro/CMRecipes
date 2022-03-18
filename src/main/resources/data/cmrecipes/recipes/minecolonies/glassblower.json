@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GPG",
+    "GSG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag": "minecraft:planks"
+    },
+    "P": {
+      "item": "structurize:sceptergold"
+    },
+    "S": {
+      "tag": "forge:glass/colorless"
+    }
+  },
+  "result": {
+    "item": "minecolonies:blockhutglassblower"
+  }
+}

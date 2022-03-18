@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GSG"
+  ],
+  "key": {
+    "S": {
+      "item": "biggerreactors:heat_exchanger_casing"
+    },
+    "G": [
+      {
+        "tag": "forge:glass/colorless"
+      }
+    ]
+  },
+  "result": {
+    "item": "biggerreactors:heat_exchanger_glass"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GIG",
+    " G ",
+    "GIG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "supplementaries:hourglass"
+  }
+}

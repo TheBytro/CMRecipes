@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I",
+    "IGI",
+    " I "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "I": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft:tinted_glass",
+    "count": 2
+  }
+}

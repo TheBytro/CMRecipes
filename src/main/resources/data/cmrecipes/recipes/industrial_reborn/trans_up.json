@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "IMI",
+    "GEG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "I": {
+      "item": "indreb:gold_cable_insulated"
+    },
+    "M": {
+      "item": "indreb:mv_transformer"
+    },
+    "E": {
+      "item": "indreb:electronic_circuit"
+    }
+  },
+  "result": {
+    "item": "indreb:transformer_upgrade"
+  }
+}
