@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " I",
-    "IGI",
-    " I "
+    " S ",
+    "SGS",
+    " S "
   ],
   "key": {
     "G": {
       "tag": "forge:glass/colorless"
     },
-    "I": {
+    "S": {
       "item": "minecraft:amethyst_shard"
     }
   },

@@ -5,7 +5,7 @@ license="All rights reserved"
 
 [[mods]] #mandatory
 modId="cmrecipes" #mandatory
-version="18.03.22-1.18.1" #mandatory
+version="19.03.22-1.18.1" #mandatory
 displayName="CMRecipes" #mandatory
 #logoFile="examplemod.png" #optional
 #credits="" #optional
