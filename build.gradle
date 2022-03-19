@@ -14,7 +14,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '17.03.22-1.18.1'
+version = '18.03.22-1.18.1'
 group = 'io.thebytro.cmrecipes'
 archivesBaseName = 'cmrecipes'
 
